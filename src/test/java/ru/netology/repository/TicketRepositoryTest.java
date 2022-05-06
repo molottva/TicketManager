@@ -43,7 +43,7 @@ class TicketRepositoryTest {
 
     @Test
     void shouldAddTicket() {
-        TicketData[] expected = new TicketData[] {
+        TicketData[] expected = new TicketData[]{
                 ticketOne,
                 ticketTwo,
                 ticketThree};
@@ -62,7 +62,7 @@ class TicketRepositoryTest {
 
     @Test
     void shouldRemoveById() {
-        TicketData[] expected = new TicketData[] {
+        TicketData[] expected = new TicketData[]{
                 ticketOne,
                 ticketTwo,
                 ticketThree,
