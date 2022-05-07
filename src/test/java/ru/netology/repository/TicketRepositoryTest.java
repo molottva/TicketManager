@@ -2,7 +2,6 @@ package ru.netology.repository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestFactory;
 import ru.netology.data.TicketData;
 import ru.netology.exception.AlreadyExistsException;
 import ru.netology.exception.NotFoundException;
