@@ -2,7 +2,6 @@ package ru.netology.repository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestFactory;
 import ru.netology.data.TicketData;
 import ru.netology.exception.AlreadyExistsException;
 import ru.netology.exception.NotFoundException;
@@ -43,7 +42,7 @@ class TicketRepositoryTest {
 
     @Test
     void shouldAddTicket() {
-        TicketData[] expected = new TicketData[] {
+        TicketData[] expected = new TicketData[]{
                 ticketOne,
                 ticketTwo,
                 ticketThree};
@@ -62,7 +61,7 @@ class TicketRepositoryTest {
 
     @Test
     void shouldRemoveById() {
-        TicketData[] expected = new TicketData[] {
+        TicketData[] expected = new TicketData[]{
                 ticketOne,
                 ticketTwo,
                 ticketThree,
